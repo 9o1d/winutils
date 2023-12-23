@@ -1,5 +1,5 @@
 <?php
-$s_file_name = "/var/www/html/status.txt";
+$s_file_name = "/path/to/status.txt";
 if (isset($_GET['i']))
 {
 	$i = intval($_GET['i']);
