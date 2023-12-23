@@ -16,7 +16,7 @@ class Program
         timer = new Timer(
             callback: new TimerCallback(TimerTask),
             state: timerState,
-            dueTime: 0,
+            dueTime: 300000,
             period: 300000);
 
         while (true)
